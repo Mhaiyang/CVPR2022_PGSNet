@@ -39,10 +39,10 @@ Lower version should be fine but not fully tested :-)
 
 ### 3. Experiments
 
-#### 3.1 Train
+#### 3.1. Train
 `python train.py`
 
-#### 3.2 Test
+#### 3.2. Test
 Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/1UoOyGa-vQtGWLAl-VADJ1bedzMaAvc22/view?usp=sharing) and pre-trained model 'PGSNet.pth' at [here](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html), then run `infer.py`.
 
 
