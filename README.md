@@ -16,23 +16,15 @@
     + [4.2. Quantitative Comparison](#42-quantitative-comparison)
     + [4.3. Results Download](#43-results-download)
   * [5. Proposed RGBP-Glass Dataset](#5-proposed-rgbp-glass-dataset)
+    + [5.1. Overview](#51-overview)
+    + [5.2. File Structure](#52-file-structure)
+    + [5.3. Download](#53-download)
   * [6. Citation](#6-citation)
   * [7. LICENSE](#7-license)
   * [8. Contact](#8-contact)
 
 ### 1. Abstract
 
-### 6. Citation
-Please cite our paper if you find the work useful::
-
-```
-@InProceedings{Mei_2022_CVPR_PGSNet,
-    title = {Glass Segmentation using Intensity and Spectral Polarization Cues},
-    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month = {June},
-    year = {2022}
-}
-```
 
 ### 2. Requirements
 * Python 3.8.10
@@ -48,17 +40,50 @@ Lower version should be fine but not fully tested :-)
 ### 3. Experiments
 
 #### 3.1 Train
-'python train.py'
+`python train.py`
 
 #### 3.2 Test
 Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/1UoOyGa-vQtGWLAl-VADJ1bedzMaAvc22/view?usp=sharing) and pre-trained model 'PGSNet.pth' at [here](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html), then run `infer.py`.
 
-### 0.2. Table of Contents
 
+### 4. Results
 
+#### 4.1. Qualitative Comparison
+<p align="center">
+    <img src="assets/coming_soon.png"/> <br />
+    <em> 
+    Figure 1: Qualitative comparison results.
+    </em>
+</p>
 
-### 0.3. File Structure
-	SINet
+#### 4.2. Quantitative Comparison (Overall/Sub-class)
+
+<p align="center">
+    <img src="assets/coming_soon.png"/> <br />
+    <em> 
+    Table 1: Quantitative comparison results.
+    </em>
+</p>
+
+#### 4.3. Results Download 
+
+1. Results of our SINet can be found in this [download link](https://drive.google.com/drive/folders/1uxIuT5havrkL07Skp_oQHoiJ8m2he1Fn?usp=sharing).
+
+2. Performance of competing methods can be found in this [download link](https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J).
+
+### 5. Proposed COD10K Datasets
+
+#### 5.1. Overview
+
+<p align="center">
+    <img width="600" height="200" src="assets/coming_soon.png"/> <br />
+    <em> 
+    Overview of our RGBP-Glass dataset.
+    </em>
+</p>
+
+#### 5.2. File Structure
+	RGBP-Glass
 	├── EvaluationTool
 	│   ├── CalMAE.m
 	│   ├── Enhancedmeasure.m
@@ -98,42 +123,25 @@ Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/
 	    ├── SINet.py
 	    └── utils
 
+#### 5.3. Download
 
-### 4. Results
-
-#### 4.1. Qualitative Comparison
 <p align="center">
-    <img src="http://dpfan.net/wp-content/uploads/CmpResults.png"/> <br />
+    <img src="assets/coming_soon.png"/> <br />
     <em> 
-    Figure 4: Qualitative results of our SINet and two top-performing baselines on COD10K. Refer to our paper for details.
     </em>
 </p>
 
-#### 4.2. Quantitative Comparison (Overall/Sub-class)
+### 6. Citation
+Please cite our paper if you find the work useful::
 
-<p align="center">
-    <img src="http://dpfan.net/wp-content/uploads/QuantitativeResults-new.png"/> <br />
-    <em> 
-    Table 1: Quantitative results on different datasets. The best scores are highlighted in bold.
-    </em>
-</p>
-
-#### 4.3. Results Download 
-
-1. Results of our SINet can be found in this [download link](https://drive.google.com/drive/folders/1uxIuT5havrkL07Skp_oQHoiJ8m2he1Fn?usp=sharing).
-
-2. Performance of competing methods can be found in this [download link](https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J).
-
-## 5. Proposed COD10K Datasets
-
-<p align="center">
-    <img width="850" height="750" src="http://dpfan.net/wp-content/uploads/SampleAquaticAnimals.png"/> <br />
-    <em> 
-    Figure 5: The extraction of individual samples including 20 sub-classes from our COD10K (2/5)–Aquatic animals.
-    </em>
-</p>
-
-> COD10K datasets: [Baidu](https://pan.baidu.com/s/15GnPrMd6TGzMufEQ9IC66Q) aq4i | [Google](https://drive.google.com/file/d/1pVq1rWXCwkMbEZpTt4-yUQ3NsnQd_DNY/view?usp=sharing)
+```
+@InProceedings{Mei_2022_CVPR_PGSNet,
+    title = {Glass Segmentation using Intensity and Spectral Polarization Cues},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2022}
+}
+```
 
 
 ### 7. License
