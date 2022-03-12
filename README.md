@@ -3,7 +3,7 @@
 ## Glass Segmentation using Intensity and Spectral Polarization Cues
 [Haiyang Mei](https://mhaiyang.github.io/), [Bo Dong](https://dongshuhao.github.io/), Wen Dong, Jiaxi Yang, Seung-Hwan Baek, [Felix Heide](https://www.cs.princeton.edu/~fheide/), [Pieter Peers](http://www.cs.wm.edu/~ppeers/), Xiaopeng Wei, [Xin Yang](https://xinyangdut.github.io/)
 
-[[Paper]()] [[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
+[Paper] [[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
 
 - [Glass Segmentation using Intensity and Spectral Polarization Cues (CVPR2022)](#glass-segmentation-using-intensity-and-spectral-polarization-cues)
   * [1. Abstract](#1-abstract)
