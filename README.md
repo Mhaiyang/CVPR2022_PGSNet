@@ -5,7 +5,7 @@
 
 [[Paper]()] [[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
 
-- [Glass Segmentation using Intensity and Spectral Polarization Cues (CVPR2022)](#camouflaged-object-detection--cvpr2020-)
+- [Glass Segmentation using Intensity and Spectral Polarization Cues (CVPR2022)](#glass-segmentation-using-intensity-and-spectral-polarization-cues)
   * [1. Abstract](#1-abstract)
   * [2. Requirements](#2-requirements)
   * [3. Experiments](#3-experiments)
