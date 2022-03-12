@@ -56,7 +56,7 @@ Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/
     </em>
 </p>
 
-#### 4.2. Quantitative Comparison (Overall/Sub-class)
+#### 4.2. Quantitative Comparison
 
 <p align="center">
     <img src="assets/coming_soon.png"/> <br />
