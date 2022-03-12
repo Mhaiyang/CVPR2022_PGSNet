@@ -67,11 +67,11 @@ Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/
 
 #### 4.3. Results Download 
 
-1. Results of our SINet can be found in this [download link](https://drive.google.com/drive/folders/1uxIuT5havrkL07Skp_oQHoiJ8m2he1Fn?usp=sharing).
+1. Results of our PGSNet can be found in this [download link](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html).
 
-2. Performance of competing methods can be found in this [download link](https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J).
+2. Performance of competing methods can be found in this [download link](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html).
 
-### 5. Proposed COD10K Datasets
+### 5. Proposed RGBP-Glass Dataset
 
 #### 5.1. Overview
 
