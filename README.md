@@ -5,7 +5,7 @@
 
 [Paper] [[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
 
-- [Glass Segmentation using Intensity and Spectral Polarization Cues (CVPR2022)](#glass-segmentation-using-intensity-and-spectral-polarization-cues)
+- [Table of Contents](#glass-segmentation-using-intensity-and-spectral-polarization-cues)
   * [1. Abstract](#1-abstract)
   * [2. Requirements](#2-requirements)
   * [3. Experiments](#3-experiments)
@@ -45,14 +45,13 @@ Please cite our paper if you find the work useful::
 Lower version should be fine but not fully tested :-)
 
 
-### Test
+### 3. Experiments
+
+#### 3.1 Train
+'python train.py'
+
+#### 3.2 Test
 Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/1UoOyGa-vQtGWLAl-VADJ1bedzMaAvc22/view?usp=sharing) and pre-trained model 'PGSNet.pth' at [here](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html), then run `infer.py`.
-
-### License
-Please see `LICENSE`
-
-### Contact
-E-Mail: mhy666@mail.dlut.edu.cn
 
 ### 0.2. Table of Contents
 
@@ -100,9 +99,9 @@ E-Mail: mhy666@mail.dlut.edu.cn
 	    └── utils
 
 
-## 3. Results
+### 4. Results
 
-### 3.1. Qualitative Comparison
+#### 4.1. Qualitative Comparison
 <p align="center">
     <img src="http://dpfan.net/wp-content/uploads/CmpResults.png"/> <br />
     <em> 
@@ -110,7 +109,7 @@ E-Mail: mhy666@mail.dlut.edu.cn
     </em>
 </p>
 
-### 3.2. Quantitative Comparison (Overall/Sub-class)
+#### 4.2. Quantitative Comparison (Overall/Sub-class)
 
 <p align="center">
     <img src="http://dpfan.net/wp-content/uploads/QuantitativeResults-new.png"/> <br />
@@ -119,13 +118,13 @@ E-Mail: mhy666@mail.dlut.edu.cn
     </em>
 </p>
 
-### 3.3. Results Download 
+#### 4.3. Results Download 
 
 1. Results of our SINet can be found in this [download link](https://drive.google.com/drive/folders/1uxIuT5havrkL07Skp_oQHoiJ8m2he1Fn?usp=sharing).
 
 2. Performance of competing methods can be found in this [download link](https://drive.google.com/open?id=1jGE_6IzjGw1ExqxteJ0KZSkM4GaEVC4J).
 
-## 4. Proposed COD10K Datasets
+## 5. Proposed COD10K Datasets
 
 <p align="center">
     <img width="850" height="750" src="http://dpfan.net/wp-content/uploads/SampleAquaticAnimals.png"/> <br />
@@ -137,18 +136,9 @@ E-Mail: mhy666@mail.dlut.edu.cn
 > COD10K datasets: [Baidu](https://pan.baidu.com/s/15GnPrMd6TGzMufEQ9IC66Q) aq4i | [Google](https://drive.google.com/file/d/1pVq1rWXCwkMbEZpTt4-yUQ3NsnQd_DNY/view?usp=sharing)
 
 
-## 8. Citation
+### 7. License
 
-Please cite our paper if you find the work useful: 
-
-	@inproceedings{fan2020Camouflage,
-  	title={Camouflaged Object Detection},
-  	author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
-  	booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  	year={2020}
-	}
-
-## 9. LICENSE
+[//]: # (Please see `LICENSE`)
 
 - The RGBP-Glass Dataset is made available for non-commercial purposes only.
 
@@ -180,6 +170,9 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+
+### 8. Contact
+E-Mail: mhy666@mail.dlut.edu.cn
 
 
 **[⬆ back to top](#1-abstract)**
