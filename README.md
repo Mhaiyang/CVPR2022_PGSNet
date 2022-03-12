@@ -20,9 +20,9 @@
   * [7. LICENSE](#7-license)
   * [8. Contact](#8-contact)
 
-### Abstract
+### 1. Abstract
 
-### Citation
+### 6. Citation
 Please cite our paper if you find the work useful::
 
 ```
@@ -34,7 +34,7 @@ Please cite our paper if you find the work useful::
 }
 ```
 
-### Requirements
+### 2. Requirements
 * Python 3.8.10
 * PyTorch == 1.10.0
 * TorchVision == 0.11.0
