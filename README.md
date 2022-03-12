@@ -150,7 +150,7 @@ Please cite our paper if you find the work useful::
 
 - The RGBP-Glass Dataset is made available for non-commercial purposes only.
 
-- You will not, directly or indirectly, reproduce, use, or convey the COD10K Dataset 
+- You will not, directly or indirectly, reproduce, use, or convey the RGBP-Glass Dataset 
 or any Content, or any work product or data derived therefrom, for commercial purposes.
 
 This code is for academic communication only and not for commercial purposes. 
