@@ -26,9 +26,6 @@
 
 <p align="center">
     <img src="assets/coming_soon.png"/> <br />
-    <em> 
-    Figure 1: Qualitative comparison results.
-    </em>
 </p>
 
 
@@ -46,7 +43,7 @@ Lower version should be fine but not fully tested :-)
 ### 3. Experiments
 
 #### 3.1. Test
-Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/1UoOyGa-vQtGWLAl-VADJ1bedzMaAvc22/view?usp=sharing) and pre-trained model 'PGSNet.pth' at [here](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html), then run `infer.py`.
+Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/1UoOyGa-vQtGWLAl-VADJ1bedzMaAvc22/view?usp=sharing) and pre-trained model `PGSNet.pth` at [here](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html), then run `infer.py`.
 
 
 ### 4. Results
@@ -129,8 +126,6 @@ We also provide the reflection and edge maps of the training set, which are requ
 
 <p align="center">
     <img src="assets/coming_soon.png"/> <br />
-    <em> 
-    </em>
 </p>
 
 
