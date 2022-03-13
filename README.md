@@ -9,8 +9,7 @@
   * [1. Abstract](#1-abstract)
   * [2. Requirements](#2-requirements)
   * [3. Experiments](#3-experiments)
-    + [3.1. Train](#31-train)
-    + [3.2. Test](#32-test)
+    + [3.1. Test](#31-test)
   * [4. Results](#4-results)
     + [4.1. Qualitative Comparison](#41-qualitative-comparison)
     + [4.2. Quantitative Comparison](#42-quantitative-comparison)
@@ -24,6 +23,13 @@
   * [8. Contact](#8-contact)
 
 ### 1. Abstract
+
+<p align="center">
+    <img src="assets/coming_soon.png"/> <br />
+    <em> 
+    Figure 1: Qualitative comparison results.
+    </em>
+</p>
 
 
 ### 2. Requirements
@@ -39,16 +45,14 @@ Lower version should be fine but not fully tested :-)
 
 ### 3. Experiments
 
-#### 3.1. Train
-`python train.py`
-
-#### 3.2. Test
+#### 3.1. Test
 Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/1UoOyGa-vQtGWLAl-VADJ1bedzMaAvc22/view?usp=sharing) and pre-trained model 'PGSNet.pth' at [here](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html), then run `infer.py`.
 
 
 ### 4. Results
 
 #### 4.1. Qualitative Comparison
+
 <p align="center">
     <img src="assets/coming_soon.png"/> <br />
     <em> 
@@ -71,6 +75,7 @@ Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/
 
 2. Performance of competing methods can be found in this [download link](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html).
 
+
 ### 5. Proposed RGBP-Glass Dataset
 
 #### 5.1. Overview
@@ -84,44 +89,41 @@ Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/
 
 #### 5.2. File Structure
 	RGBP-Glass
-	├── EvaluationTool
-	│   ├── CalMAE.m
-	│   ├── Enhancedmeasure.m
-	│   ├── Fmeasure_calu.m
-	│   ├── main.m
-	│   ├── original_WFb.m
-	│   ├── S_object.m
-	│   ├── S_region.m
-	│   └── StructureMeasure.m
-	├── Images
-	│   ├── CamouflagedTask.png
-	│   ├── CamouflagingFromMultiView.png
-	│   ├── CmpResults.png
-	│   ├── COD10K-2.png
-	│   ├── COD10K-3.png
-	│   ├── COVID'19-Infection.png
-	│   ├── locust detection.png
-	│   ├── new_score_1.png
-	│   ├── PolypSegmentation.png
-	│   ├── QuantitativeResults-new.png
-	│   ├── SampleAquaticAnimals.png
-	│   ├── Search-and-Rescue.png
-	│   ├── SINet.png
-	│   ├── SubClassResults-1.png
-	│   ├── SubClassResults.png
-	│   ├── Surface defect Detection2.png
-	│   ├── TaskRelationship.png
-	│   ├── Telescope.png
-	│   └── UnderwaterEnhancment.png
-	├── MyTest.py
-	├── README.md
-	├── requirement.txt
-	└── Src
-	    ├── backbone
-	    ├── __init__.py
-	    ├── SearchAttention.py
-	    ├── SINet.py
-	    └── utils
+	├── train
+	│   ├── aolp
+    │   |   ├── 20210717001004_aolp.tiff
+    │   |   └── ...
+	│   ├── dolp
+    │   |   ├── 20210717001004_dolp.tiff
+    │   |   └── ...
+	│   ├── edge
+    │   |   ├── 20210717001004_edge.png
+    │   |   └── ...
+	│   ├── image
+    │   |   ├── 20210717001004_rgb.tiff
+    │   |   └── ...
+	│   ├── mask
+    │   |   ├── 20210717001004_mask.png
+    │   |   └── ...
+	│   ├── reflection
+    │   |   ├── 20210717001004_reflection.png
+    │   |   └── ...
+	├── test
+	│   ├── aolp
+    │   |   ├── 20210717001002_aolp.tiff
+    │   |   └── ...
+	│   ├── dolp
+    │   |   ├── 20210717001002_dolp.tiff
+    │   |   └── ...
+	│   ├── image
+    │   |   ├── 20210717001002_rgb.tiff
+    │   |   └── ...
+	│   ├── mask
+    │   |   ├── 20210717001002_mask.png
+    │   |   └── ...
+	└── LICENSE
+
+We also provide the reflection and edge maps of the training set, which are required for training some glass segmentation methods (our PGSNet is out of this case).
 
 #### 5.3. Download
 
@@ -130,6 +132,7 @@ Download 'Conformer_base_patch16.pth' at [here](https://drive.google.com/file/d/
     <em> 
     </em>
 </p>
+
 
 ### 6. Citation
 Please cite our paper if you find the work useful::
@@ -146,41 +149,64 @@ Please cite our paper if you find the work useful::
 
 ### 7. License
 
-[//]: # (Please see `LICENSE`)
+Please see `LICENSE`
 
-- The RGBP-Glass Dataset is made available for non-commercial purposes only.
+[//]: # (- The RGBP-Glass Dataset is made available for non-commercial purposes only.)
 
-- You will not, directly or indirectly, reproduce, use, or convey the RGBP-Glass Dataset 
-or any Content, or any work product or data derived therefrom, for commercial purposes.
+[//]: # ()
+[//]: # (- You will not, directly or indirectly, reproduce, use, or convey the RGBP-Glass Dataset )
 
-This code is for academic communication only and not for commercial purposes. 
-If you want to use for commercial please contact me.
+[//]: # (or any Content, or any work product or data derived therefrom, for commercial purposes.)
 
-Redistribution and use in source with or without
-modification, are permitted provided that the following conditions are
-met:
+[//]: # ()
+[//]: # (This code is for academic communication only and not for commercial purposes. )
 
-* Redistributions of source code must retain the above copyright
-  notice, this list of conditions and the following disclaimer.
-  
-* Redistributions in binary form must reproduce the above copyright
-  notice, this list of conditions and the following disclaimer in
-  the documentation and/or other materials provided with the distribution
+[//]: # (If you want to use for commercial please contact me.)
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 	
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
+[//]: # ()
+[//]: # (Redistribution and use in source with or without)
+
+[//]: # (modification, are permitted provided that the following conditions are)
+
+[//]: # (met:)
+
+[//]: # ()
+[//]: # (* Redistributions of source code must retain the above copyright)
+
+[//]: # (  notice, this list of conditions and the following disclaimer.)
+
+[//]: # (  )
+[//]: # (* Redistributions in binary form must reproduce the above copyright)
+
+[//]: # (  notice, this list of conditions and the following disclaimer in)
+
+[//]: # (  the documentation and/or other materials provided with the distribution)
+
+[//]: # ()
+[//]: # (THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS")
+
+[//]: # (AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE)
+
+[//]: # (IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE)
+
+[//]: # (ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 	)
+
+[//]: # (LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR)
+
+[//]: # (CONSEQUENTIAL DAMAGES &#40;INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF)
+
+[//]: # (SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS)
+
+[//]: # (INTERRUPTION&#41; HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN)
+
+[//]: # (CONTRACT, STRICT LIABILITY, OR TORT &#40;INCLUDING NEGLIGENCE OR OTHERWISE&#41;)
+
+[//]: # (ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE)
+
+[//]: # (POSSIBILITY OF SUCH DAMAGE.)
 
 ### 8. Contact
-E-Mail: mhy666@mail.dlut.edu.cn
+E-Mail: Haiyang Mei (mhy666@mail.dlut.edu.cn)
 
 
 **[⬆ back to top](#1-abstract)**
