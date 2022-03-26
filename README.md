@@ -102,9 +102,10 @@ Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/
 	│   ├── mask
     │   |   ├── 20210717001004_mask.png
     │   |   └── ...
-	│   └── reflection
-    │       ├── 20210717001004_reflection.png
-    │       └── ...
+	│   ├── reflection
+    │   |   ├── 20210717001004_reflection.png
+    │   |   └── ...
+    │   └── instances_train.json
 	├── test
 	│   ├── aolp
     │   |   ├── 20210717001002_aolp.tiff
@@ -115,9 +116,10 @@ Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/
 	│   ├── image
     │   |   ├── 20210717001002_rgb.tiff
     │   |   └── ...
-	│   └── mask
-    │       ├── 20210717001002_mask.png
-    │       └── ...
+	│   ├── mask
+    │   |   ├── 20210717001002_mask.png
+    │   |   └── ...
+    │   └── instances_test.json
 	└── LICENSE
 
 We also provide the reflection and edge maps of the training set, which are required for training some glass segmentation methods (our PGSNet is out of this case).
