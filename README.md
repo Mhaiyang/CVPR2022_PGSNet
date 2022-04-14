@@ -5,6 +5,10 @@
 
 [Paper] [[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
 
+RGBP-Glass training set:&nbsp;[[Google Drive](https://drive.google.com/file/d/1cfhfWwTEx-x0TyAmHzNrDgq42xMlC9WI/view?usp=sharing)]&nbsp;&nbsp;[[Baidu Disk](https://pan.baidu.com/s/1AANT94Z-V-JdJ3GAmi17Ug), fetch code: rgbp]
+
+RGBP-Glass testing set:&nbsp;&nbsp;[[Google Drive](https://drive.google.com/file/d/1w00uUjqm2c_Atah3ZJKPHvX172YwDcy0/view?usp=sharing)]&nbsp;&nbsp;[[Baidu Disk](https://pan.baidu.com/s/1AANT94Z-V-JdJ3GAmi17Ug), fetch code: rgbp]
+
 - [Table of Contents](#glass-segmentation-using-intensity-and-spectral-polarization-cues)
   * [1. Abstract](#1-abstract)
   * [2. Requirements](#2-requirements)
