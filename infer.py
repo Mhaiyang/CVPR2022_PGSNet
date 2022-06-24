@@ -1,9 +1,9 @@
 """
  @Time    : 2021/10/16 15:12
  @Author  : Haiyang Mei
- @E-mail  : mhy666@mail.dlut.edu.cn
+ @E-mail  : haiyang.mei@outlook.com
  
- @Project : cvpr2022
+ @Project : CVPR2022_PGSNet
  @File    : infer.py
  @Function:
  
@@ -25,7 +25,7 @@ torch.manual_seed(2022)
 device_ids = [0]
 torch.cuda.set_device(device_ids[0])
 
-results_path = ''
+results_path = './results'
 check_mkdir(results_path)
 ckpt_path = './ckpt'
 exp_name = 'PGSNet'
