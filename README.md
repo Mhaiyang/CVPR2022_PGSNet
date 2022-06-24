@@ -127,10 +127,7 @@ Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/
 We also provide the reflection and edge maps of the training set, which are required for training some glass segmentation methods (our PGSNet is out of this case).
 
 #### 5.3. Download
-
-<p align="center">
-    <img src="assets/coming_soon.png"/> <br />
-</p>
+Please refer to the [Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html).
 
 
 ### 6. Citation
