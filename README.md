@@ -66,7 +66,7 @@ Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/
 #### 4.2. Quantitative Comparison
 
 <p align="center">
-    <img src="assets/table1.png"/> <br />
+    <img width="500" src="assets/table1.png"/> <br />
     <em> 
     Table 1: Quantitative comparison results.
     </em>
@@ -141,11 +141,13 @@ We also provide the reflection and edge maps of the training set, which are requ
 Please cite our paper if you find the work useful::
 
 ```
-@InProceedings{Mei_2022_CVPR_PGSNet,
-    title = {Glass Segmentation using Intensity and Spectral Polarization Cues},
-    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month = {June},
-    year = {2022}
+@InProceedings{Mei_2022_CVPR,
+    author    = {Mei, Haiyang and Dong, Bo and Dong, Wen and Yang, Jiaxi and Baek, Seung-Hwan and Heide, Felix and Peers, Pieter and Wei, Xiaopeng and Yang, Xin},
+    title     = {Glass Segmentation Using Intensity and Spectral Polarization Cues},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {12622-12631}
 }
 ```
 
@@ -154,62 +156,8 @@ Please cite our paper if you find the work useful::
 
 Please see `LICENSE`
 
-[//]: # (- The RGBP-Glass Dataset is made available for non-commercial purposes only.)
-
-[//]: # ()
-[//]: # (- You will not, directly or indirectly, reproduce, use, or convey the RGBP-Glass Dataset )
-
-[//]: # (or any Content, or any work product or data derived therefrom, for commercial purposes.)
-
-[//]: # ()
-[//]: # (This code is for academic communication only and not for commercial purposes. )
-
-[//]: # (If you want to use for commercial please contact me.)
-
-[//]: # ()
-[//]: # (Redistribution and use in source with or without)
-
-[//]: # (modification, are permitted provided that the following conditions are)
-
-[//]: # (met:)
-
-[//]: # ()
-[//]: # (* Redistributions of source code must retain the above copyright)
-
-[//]: # (  notice, this list of conditions and the following disclaimer.)
-
-[//]: # (  )
-[//]: # (* Redistributions in binary form must reproduce the above copyright)
-
-[//]: # (  notice, this list of conditions and the following disclaimer in)
-
-[//]: # (  the documentation and/or other materials provided with the distribution)
-
-[//]: # ()
-[//]: # (THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS")
-
-[//]: # (AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE)
-
-[//]: # (IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE)
-
-[//]: # (ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 	)
-
-[//]: # (LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR)
-
-[//]: # (CONSEQUENTIAL DAMAGES &#40;INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF)
-
-[//]: # (SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS)
-
-[//]: # (INTERRUPTION&#41; HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN)
-
-[//]: # (CONTRACT, STRICT LIABILITY, OR TORT &#40;INCLUDING NEGLIGENCE OR OTHERWISE&#41;)
-
-[//]: # (ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE)
-
-[//]: # (POSSIBILITY OF SUCH DAMAGE.)
-
 ### 8. Contact
-E-Mail: Haiyang Mei (mhy666@mail.dlut.edu.cn)
+E-Mail: Haiyang Mei (haiyang.mei@outlook.com)
 
 
 **[⬆ back to top](#1-abstract)**
