@@ -11,7 +11,6 @@
 import time
 import datetime
 import torch
-from PIL import Image
 from torch.autograd import Variable
 from torchvision import transforms
 from collections import OrderedDict
@@ -26,9 +25,9 @@ torch.manual_seed(2022)
 device_ids = [0]
 torch.cuda.set_device(device_ids[0])
 
-results_path = '/home/mhy/tpami2022/results/220602/11'
+results_path = ''
 check_mkdir(results_path)
-ckpt_path = '/home/mhy/tpami2022/ckpt'
+ckpt_path = './ckpt'
 exp_name = 'PGSNet'
 args = {
     'snapshot': '180',
@@ -55,8 +54,7 @@ dolp_transform = transforms.Compose([
 to_pil = transforms.ToPILImage()
 
 to_test = OrderedDict([
-    # ('RGBP-Glass', testing_root),
-    ('Demo', demo_root),
+    ('RGBP-Glass', testing_root),
 ])
 
 results = OrderedDict()
@@ -64,9 +62,6 @@ results = OrderedDict()
 def main():
     net = PGSNet(backbone_path1, backbone_path2, backbone_path3, backbone_path4).cuda(device_ids[0])
 
-    # print('Load snapshot {}.pth for testing'.format(args['snapshot']))
-    # net.load_state_dict(torch.load(os.path.join(ckpt_path, exp_name, args['snapshot'] + '.pth')))
-    # print('Load {} succeed!'.format(os.path.join(ckpt_path, exp_name, args['snapshot'] + '.pth')))
     net.load_state_dict(torch.load(pgsnet_ckpt_path))
     print('Load {} succeed!'.format(pgsnet_ckpt_path))
 
@@ -86,7 +81,6 @@ def main():
             img_list.sort(key=lambda x: int(x.split('_')[0]))
             img_list = ['%04d'%int(x.split('_')[0]) + x[-4:] for x in img_list]
             for img_name in tqdm(img_list):
-                # print(img_name)
                 image = Image.open(os.path.join(image_path, img_name + '.tiff')).convert('RGB')
                 aolp = Image.open(os.path.join(aolp_path, img_name[:-4] + '_aolp.tiff')).convert('RGB')
                 aolp = reorder(aolp)

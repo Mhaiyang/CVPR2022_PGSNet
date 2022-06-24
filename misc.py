@@ -3,7 +3,7 @@
  @Author  : Haiyang Mei
  @E-mail  : mhy666@mail.dlut.edu.cn
  
- @Project : cvpr2022-glass
+ @Project : cvpr2022
  @File    : misc.py
  @Function:
  
