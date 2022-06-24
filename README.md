@@ -3,7 +3,7 @@
 ## Glass Segmentation using Intensity and Spectral Polarization Cues
 [Haiyang Mei](https://mhaiyang.github.io/), [Bo Dong](https://dongshuhao.github.io/), Wen Dong, Jiaxi Yang, Seung-Hwan Baek, [Felix Heide](https://www.cs.princeton.edu/~fheide/), [Pieter Peers](http://www.cs.wm.edu/~ppeers/), Xiaopeng Wei, [Xin Yang](https://xinyangdut.github.io/)
 
-[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Mei_Glass_Segmentation_Using_Intensity_and_Spectral_Polarization_Cues_CVPR_2022_paper.pdf)&nbsp;&nbsp;[[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
+[[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Mei_Glass_Segmentation_Using_Intensity_and_Spectral_Polarization_Cues_CVPR_2022_paper.pdf)]&nbsp;&nbsp;[[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
 
 RGBP-Glass training set:&nbsp;[[Google Drive](https://drive.google.com/file/d/1L7M3DlSeIeFr7eqDFfp5X_9UH6Qr-tPB/view?usp=sharing)]&nbsp;&nbsp;[[Baidu Disk](https://pan.baidu.com/s/1OlBf27cSglvYZCSM2Jv00w), fetch code: rgbp]
 
