@@ -28,9 +28,11 @@ RGBP-Glass testing set:&nbsp;&nbsp;[[Google Drive](https://drive.google.com/file
 
 ### 1. Abstract
 
-<p align="center">
-    <img src="assets/coming_soon.png"/> <br />
-</p>
+Transparent and semi-transparent materials pose significant challenges for existing scene understanding and segmentation algorithms due to their lack of RGB texture which impedes the extraction of meaningful features. In this work, we exploit that the light-matter interactions on glass materials provide unique intensity-polarization cues for each observed wavelength of light. We present a novel learning-based glass segmentation network that leverages both trichromatic (RGB) intensities as well as trichromatic linear polarization cues from a single photograph captured without making any assumption on the polarization state of the illumination. Our novel network architecture dynamically fuses and weights both the trichromatic color and polarization cues using a novel global-guidance and multi-scale self-attention module, and leverages global cross-domain contextual information to achieve robust segmentation.  We train and extensively validate our segmentation method on a new large-scale RGB-Polarization dataset (RGBP-Glass), and demonstrate that our method outperforms state-of-the-art segmentation approaches by a significant margin.
+
+[//]: # (<p align="center">)
+[//]: # (    <img src="assets/coming_soon.png"/> <br />)
+[//]: # (</p>)
 
 
 ### 2. Requirements
@@ -55,7 +57,7 @@ Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/
 #### 4.1. Qualitative Comparison
 
 <p align="center">
-    <img src="assets/coming_soon.png"/> <br />
+    <img src="assets/figure1.png"/> <br />
     <em> 
     Figure 1: Qualitative comparison results.
     </em>
@@ -64,7 +66,7 @@ Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/
 #### 4.2. Quantitative Comparison
 
 <p align="center">
-    <img src="assets/coming_soon.png"/> <br />
+    <img src="assets/table1.png"/> <br />
     <em> 
     Table 1: Quantitative comparison results.
     </em>
@@ -82,7 +84,7 @@ Download `Conformer_base_patch16.pth` at [here](https://drive.google.com/file/d/
 #### 5.1. Overview
 
 <p align="center">
-    <img width="600" height="200" src="assets/coming_soon.png"/> <br />
+    <img src="assets/pipeline.png"/> <br />
     <em> 
     Overview of our RGBP-Glass dataset.
     </em>
