@@ -5,10 +5,6 @@
 
 [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Mei_Glass_Segmentation_Using_Intensity_and_Spectral_Polarization_Cues_CVPR_2022_paper.pdf)]&nbsp;&nbsp;[[Project Page](https://mhaiyang.github.io/CVPR2022_PGSNet/index.html)]
 
-RGBP-Glass training set:&nbsp;[[Google Drive](https://drive.google.com/file/d/1L7M3DlSeIeFr7eqDFfp5X_9UH6Qr-tPB/view?usp=sharing)]&nbsp;&nbsp;[[Baidu Disk](https://pan.baidu.com/s/1OlBf27cSglvYZCSM2Jv00w), fetch code: rgbp]
-
-RGBP-Glass testing set:&nbsp;&nbsp;[[Google Drive](https://drive.google.com/file/d/1RyIAPN9xZLe6GPeDmPrU2RJ9fbBroga8/view?usp=sharing)]&nbsp;&nbsp;[[Baidu Disk](https://pan.baidu.com/s/1OlBf27cSglvYZCSM2Jv00w), fetch code: rgbp]
-
 - [Table of Contents](#glass-segmentation-using-intensity-and-spectral-polarization-cues)
   * [1. Abstract](#1-abstract)
   * [2. Requirements](#2-requirements)
